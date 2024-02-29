@@ -131,6 +131,7 @@ a:hover {
     padding-top: 5vh;
     padding-left: 20vh;
     padding-right: 20vh;
+    padding-bottom: 5vh;
 }
 
 .channel-page-icon {
@@ -160,4 +161,64 @@ a:hover {
     position: relative;
     padding: 5vh;
     top: -35vh;
+}
+
+.channel-video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5vh;
+    position: relative;
+}
+
+.video-frame {
+    width: 75vw;
+    height: 70vh;
+}
+
+.video-page-title {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-top: 2vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.video-page-channel-icon {
+    width: 7vh;
+    height: 7vh;
+}
+
+.video-page-channel-title-line {
+    display: flex;
+}
+
+.video-page-channel-title {
+    font-size: 3vh;
+    margin-left: 1vh;
+    position: relative;
+    top: 1vh;
+}
+
+.video-page-video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 4vh;
+    margin-top: 10vh;
+}
+
+.video-box {
+    background-color: white;
+    width: 80vw;
+    height: 100vh;
+    padding: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.channel-box {
+    background-color: white;
+    width: 80vw;
+    height: 100vh;
+    padding: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

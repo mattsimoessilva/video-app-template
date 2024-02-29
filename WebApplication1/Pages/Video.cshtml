@@ -1,13 +1,21 @@
 ﻿@page
-@model IndexModel
+@model VideoModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Video page";
 }
 
 <div class="content-load">
-    <div class="video-grid">
+    <div class="video-box">
+        <iframe src="https://vid.puffyan.us/embed/vjfc0qm7g7U?" class="video-frame"></iframe>
+        <p class="video-page-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
+        <div class="video-page-channel-title-line">
+            <img src="https://yt3.googleusercontent.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s176-c-k-c0x00ffffff-no-rj" class="video-page-channel-icon" />
+            <p class="video-page-channel-title">dotnet</p>
+        </div>
+    </div>
+    <div class="video-page-video-grid">
         @{
-            for (int i = 0; i < 24; i++)
+            for (int i = 0; i < 4; i++)
             {
                 <a asp-page="/Video">
                     <div class="video-item">
@@ -22,7 +30,5 @@
                 </a>
             }
         }
-
-
     </div>
 </div>
