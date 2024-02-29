@@ -31,7 +31,7 @@ body {
 .video-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 10vh
+    margin-left: 5vh;
 }
 .video-item {
     width: 37vh;
@@ -73,8 +73,8 @@ body {
 
 .channel-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 17vh
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 7vh;
 }
 
 .channel-item {
@@ -128,6 +128,36 @@ a:hover {
 }
 
 .content-load {
-    padding: 5vh;
+    padding-top: 5vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
 
+.channel-page-icon {
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    top: -20vh;
+    left: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.channel-page-title {
+    position: relative;
+    left: 40vh;
+    top: -27vh;
+    font-size: 5vh;
+    width: 100vh;
+}
+
+.channel-page-data {
+    position: relative;
+    padding: 5vh;
+    top: -30vh;
+}
+
+.channel-page-info {
+    position: relative;
+    padding: 5vh;
+    top: -35vh;
+}
