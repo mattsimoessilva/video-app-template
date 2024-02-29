@@ -28,12 +28,18 @@ body {
     margin-right: 1vh;
 }
 
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 5vh
+}
 .video-item {
     width: 37vh;
     height: 37vh;
     background-color: white;
     padding: 1vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vh;
 }
 .video-thumbnail {
     width: 35vh;

@@ -28,3 +28,4 @@ C:\Users\evolu\OneDrive\Documentos\Projetos\MicrosoftVideo\WebApplication1\obj\D
 C:\Users\evolu\OneDrive\Documentos\Projetos\MicrosoftVideo\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\evolu\OneDrive\Documentos\Projetos\MicrosoftVideo\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\evolu\OneDrive\Documentos\Projetos\MicrosoftVideo\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\evolu\OneDrive\Documentos\Projetos\MicrosoftVideo\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
