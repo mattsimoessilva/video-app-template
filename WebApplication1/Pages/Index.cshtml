@@ -4,70 +4,23 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
+<div class="content-load">
     <div class="video-grid">
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail"/>
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail"/>
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail"/>
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail" />
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail"/>
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail" />
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
-        <div class="video-item">
-            <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail" />
-            <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-            <div class="channel-title-line">
-                <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                <p>dotnet</p>
-            </div>
-            <p class="video-info">1.569 visualizações • há 22 horas</p>
-        </div>
+        @{
+            for (int i = 0; i < 24; i++)
+            {
+                <div class="video-item">
+                    <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail" />
+                    <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
+                    <div class="channel-title-line">
+                        <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
+                        <p>dotnet</p>
+                    </div>
+                    <p class="video-info">1.569 visualizações • há 22 horas</p>
+                </div>
+            }
+        }
+
+
     </div>
 </div>

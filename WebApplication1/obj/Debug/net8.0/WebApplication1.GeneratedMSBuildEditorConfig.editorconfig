@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\evolu\OneDrive\Documentos\Projetos\MicrosoftVideo\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/evolu/OneDrive/Documentos/Projetos/MicrosoftVideo/WebApplication1/Pages/Channel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbm5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evolu/OneDrive/Documentos/Projetos/MicrosoftVideo/WebApplication1/Pages/ChannelList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhbm5lbExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/evolu/OneDrive/Documentos/Projetos/MicrosoftVideo/WebApplication1/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

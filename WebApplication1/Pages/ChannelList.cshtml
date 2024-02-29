@@ -1,0 +1,25 @@
+﻿@page
+@model ChannelListModel
+@{
+    ViewData["Title"] = "Channels page";
+}
+
+<div class="content-load">
+    <div class="channel-grid">
+        @{
+            for (int i = 0; i < 24; i++)
+            {
+                <a asp-page="/Channel">
+                    <div class="channel-item">
+                        <img src="https://yt3.googleusercontent.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s176-c-k-c0x00ffffff-no-rj" class="channel-thumbnail" />
+                        <p class="channel-title">dotnet</p>
+                        <p class="channel-info">12.000 inscritos • 154 vídeos</p>
+                    </div>
+                </a>
+            }
+        }
+
+
+    </div>
+</div>
+
