@@ -1,0 +1,66 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #F0F0F0;
+}
+
+.azure-icon {
+    width: 3vh;
+    height: 3vh;
+    margin-right: 1vh;
+}
+
+.video-item {
+    width: 37vh;
+    height: 37vh;
+    background-color: white;
+    padding: 1vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.video-thumbnail {
+    width: 35vh;
+    height: 20vh;
+}
+
+.video-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    padding-top: 1vh;
+}
+
+.channel-icon {
+    width: 3.5vh;
+    height: 3.5vh;
+}
+
+.channel-title-line {
+    display: flex;
+    gap: 1vh;
+    font-size: 2vh;
+}
+
+.video-info {
+    position: relative;
+    left: -5.5vh;
+    font-size: 1.7vh;
+}
