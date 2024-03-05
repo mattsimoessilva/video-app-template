@@ -4,25 +4,20 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="content-load">
-    <div class="video-grid">
-        @{
-            for (int i = 0; i < 24; i++)
-            {
-                <a asp-page="/Video">
-                    <div class="video-item">
-                        <img src="https://img.youtube.com/vi/vjfc0qm7g7U/maxresdefault.jpg" class="video-thumbnail" />
-                        <p class="video-title">How does .NET MAUI get me to market faster if I'm a startup?</p>
-                        <div class="channel-title-line">
-                            <img src="https://yt3.ggpht.com/zNRF9JUkF4F0ajer3fExeqCZfwflre_rtSbxrhXBBQg0q3ll3eUXiLAM3eHfL9k-aJdihLt2iQ=s88-c-k-c0x00ffffff-no-rj" class="channel-icon" />
-                            <p>dotnet</p>
-                        </div>
-                        <p class="video-info">1.569 visualizações • há 22 horas</p>
-                    </div>
-                </a>
-            }
+<img src="https://www.wallpaperuse.com/wallp/35-350121_m.png" class="wallpaper-image"/>
+<p class="media-title">Generic Media</p>
+<p class="media-info">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<div class="media-carousel">
+    @{
+        for (int i = 0; i < 24; i++)
+        {
+            <a asp-page="/Channel">
+                <div class="carousel-item">
+                    <img src="https://cdn.mycreativeshop.com/images/templates/16101/blank-31896-flat1-thumb.jpg" />
+                </div>
+            </a>
         }
-
-
-    </div>
+    }
 </div>

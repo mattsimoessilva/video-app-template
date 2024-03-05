@@ -222,3 +222,45 @@ a:hover {
     padding: 5vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.wallpaper-image {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.media-title {
+    font-size: 10vh;
+    position: relative;
+    color: white;
+    top: -60vh;
+    left: 10vh;
+}
+
+.media-info {
+    position: relative;
+    top: -50vh;
+    left: 10vh;
+    color: white;
+    font-size: 2vh;
+    width: 80vh;
+    text-align: justify;
+}
+
+.meida-carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.carousel-item {
+    flex-shrink: 0; /* Prevent items from shrinking */
+    margin-right: 10px; /* Add spacing between items */
+}
+
+.carousel-item img {
+    width: auto; /* Ensure images maintain their aspect ratio */
+    height: 200px; /* Set a fixed height for the images */
+    display: block; /* Ensure images don't have extra space below them */
+}
